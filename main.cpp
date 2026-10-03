@@ -1366,7 +1366,7 @@ void displayWelcomePage() {
     cout << "\n";
     printCentered("LIBRARY MANAGEMENT SYSTEM");
     cout << "\n";
-    printCentered("Made by Aritra Ray");
+    printCentered("Made by Milind Bathla");
     cout << "============================================================\n";
 }
 
@@ -1400,11 +1400,11 @@ int main() {
         lib.addBook(Book("Mystery", "The Da Vinci Code", "Dan Brown", "Doubleday", 2003, "9780307474278", "Available"));
 
         // Add 5 students
-        lib.addUser(new Student(1, "aritra", "10001", "", 0, "Aritra Ray", 20, "M"));
-        lib.addUser(new Student(2, "priya", "10002", "", 0, "Shanaya Srivastava", 22, "F"));
-        lib.addUser(new Student(3, "rahul", "10003", "", 0, "Rahul Verma", 24, "M"));
-        lib.addUser(new Student(4, "anita", "10004", "", 0, "Anita Singh", 23, "F"));
-        lib.addUser(new Student(5, "soham", "10005", "", 0, "Soham Das", 21, "M"));
+        lib.addUser(new Student(1, "milind", "10001", "", 0, "Milind Bathla", 18, "M"));
+        lib.addUser(new Student(2, "priyansh", "10002", "", 0, "Priyansh Paliwal", 18, "M"));
+        lib.addUser(new Student(3, "raj", "10003", "", 0, "Raj Choudhary", 18, "M"));
+        lib.addUser(new Student(4, "ritesh", "10004", "", 0, "Ritesh Patil", 19, "F"));
+        lib.addUser(new Student(5, "archi", "10005", "", 0, "Archi", 17, "F"));
 
         // Add 3 faculty
         lib.addUser(new Faculty(6, "neha", "20001", "", 0, "Neha Gupta", 35, "F"));

@@ -1,0 +1,3 @@
+*.exe
+.vscode/
+*_backup.csv
