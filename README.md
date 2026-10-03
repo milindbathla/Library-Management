@@ -43,7 +43,7 @@ The program features a user-friendly menu-driven interface with username-passwor
 ### Steps to Run
 First clone the repository -
 ```
-git clone https://github.com/ARYAMANN7279/Library-Management-System
+git clone https://github.com/milindbathla/Library-Management.git
 cd Library-Management-System
 ```
 Now compile with g++ -
